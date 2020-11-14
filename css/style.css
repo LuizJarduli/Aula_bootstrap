@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font: 20px arial serif;
+}
+
+.navbar {
+    background-color: #141414;
+    color: white;
+}
+
+.quem-somos {
+    background-color: #b69;
+    color: white;
+}
+
+.margin {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.parceiros {
+    background-color: #141414;
+    color: white;
+}
+
+.bcover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 15px;
+}
+
+#servicos .bcover {
+    height: 56.25%;
+}
+
+.bg-footer {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    #servicos .bcover {
+        height: auto;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+}
